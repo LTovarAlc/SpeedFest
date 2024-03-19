@@ -32,3 +32,45 @@
   height: 500px;
   width: 500px;
 }
+
+.slogan{
+  font-family: "Staatliches", sans-serif;
+  position: absolute;
+  color: hsl(0, 0%, 75%);
+  top: 63%;
+  left: 0%;
+  z-index: 1;
+  font-size: 65px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+
+.slogan::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%; /* Ajusta según tu preferencia */
+  width: 80%;
+  height: 10px;
+  background-color:  hsl(0, 0%, 75%);
+}
+
+.presentation{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 1;
+  font-size: 120px;
+  font-family: "Staatliches", sans-serif;
+  color: hsl(50, 70%, 50%);
+}
+
+.pirelli{
+  height: 180px;
+  position: absolute;
+  top: 15%;
+  left: 55%;
+  z-index: 1;
+}
