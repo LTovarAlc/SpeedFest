@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -20,6 +21,7 @@ const Banner = () => {
         <section className="banner">
             <Slider {...settings}>
                 <div>
+                    <img src="../../../img/logoRace.png" className="speedFest__logo animate__animated animate__fadeInUp animate__delay-2s" />
                     <img src="../../../img/banner1Speed.jpg" alt="Banner1" className="banner__img" />
                 </div>
                 <div>
