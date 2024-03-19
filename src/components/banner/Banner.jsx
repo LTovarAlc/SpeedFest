@@ -38,7 +38,7 @@ const Banner = () => {
           <h1 className="presentation">Presentado por:</h1>
           <img src="../../../img/LogoPirelli.png" className="pirelli" />
           <h1 className="slogan animate__animated animate__fadeInUp animate__delay-2s">
-            Con una gran exposición de autos deportivos y show de driffting
+            Con una gran exposición de autos deportivos y show de drifting
           </h1>
           <img
             src="../../../img/banner2.jpg"
@@ -47,6 +47,12 @@ const Banner = () => {
           />
         </div>
         <div>
+            <h1 className="perrosdeplata__text">Perros de plata</h1>
+            <img src="../../../img/perrosDePlata.png" className="perrosdeplata" /> 
+            <h1 className="slogan animate__animated animate__fadeInUp animate__delay-2s">
+            en conjunto con el mejor crew con el mejor crew de México
+            </h1>
+            
           <img
             src="../../../img/banner3.jpg"
             alt="Banner3"

@@ -74,3 +74,21 @@
   left: 55%;
   z-index: 1;
 }
+
+.perrosdeplata{
+  position: absolute;
+  top: 5%;
+  left: 55%;
+  z-index: 1;
+  height: 500px;
+}
+
+.perrosdeplata__text{
+  font-family: "Staatliches", sans-serif;
+  position: absolute;
+  font-size: 120px;
+  top: 30%;
+  left: 15%;
+  z-index: 1;
+  color: hsl(0, 0%, 75%);
+}
