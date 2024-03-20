@@ -50,7 +50,7 @@ const Banner = () => {
             <h1 className="perrosdeplata__text">Perros de plata</h1>
             <img src="../../../img/perrosDePlata.png" className="perrosdeplata" /> 
             <h1 className="slogan animate__animated animate__fadeInUp animate__delay-2s">
-            en conjunto con el mejor crew con el mejor crew de México
+            En conjunto con el crew mas veloz de toda ámerica
             </h1>
             
           <img
