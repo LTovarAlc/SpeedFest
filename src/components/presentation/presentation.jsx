@@ -2,6 +2,7 @@ import Button from "../button/button";
 import "./presentation.css";
 import GreenPorche from "./presentationIMG/greenPorche.png";
 import Audi from "./presentationIMG/audi.png"
+import Timer from "./timer/timer";
 
 const Presentation = () => {
   return (
@@ -27,9 +28,7 @@ const Presentation = () => {
           drifting que te dejará impresionado, todos son bienvenidos a conocer
           nuestro festival que se llevará a cabo el 29 de noviembre.
         </p>
-        <div>
-            timer
-        </div>
+        <Timer/>
         <div className="buttons__container">
             <Button text={"SABER MÁS"} color={"#000"} background={"#ffef39"}/>
             <Button text={"ASISTIRÉ"} color={"#000"} background={"red"}/>
