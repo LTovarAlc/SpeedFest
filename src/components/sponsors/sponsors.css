@@ -1,0 +1,44 @@
+.sponsors{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Staatliches", sans-serif;
+    padding: 60px 0px;
+}
+
+.sponsors h2{
+    font-size: 60px;
+    color: #fff;
+}
+
+.creators__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.logoPirelli{
+    height: 150px;
+} 
+
+.perrosdeplata-sponsors{
+    height: 300px;
+}
+
+.sponsors__brands-container{
+    padding: 30px 0px;
+    width: 70%;
+    height: 300px;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(6,1fr);
+}   
+
+.sponsors__logos{
+    height: 80px;
+}

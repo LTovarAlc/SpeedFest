@@ -5,6 +5,7 @@ import Header from "../components/header/Header";
 import MiniGalery from "../components/minigalery/minigalery";
 import Button from "../components/button/button";
 import Presentation from "../components/presentation/presentation";
+import Sponsors from "../components/sponsors/sponsors";
 
 const Home = () => {
     return(
@@ -13,6 +14,7 @@ const Home = () => {
             <Banner/>
             <MiniGalery/>
             <Presentation/>
+            <Sponsors/>
             <div className="resto"></div>
         </section>
     )
