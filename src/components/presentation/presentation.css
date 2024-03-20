@@ -1,0 +1,35 @@
+.presentation__event{
+    display: flex;
+    justify-content: space-evenly;
+    background: url(./presentationIMG/bg.jpg)  center/cover no-repeat;
+    height: 60vh;
+    
+}
+
+.presentation__imgs-container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.presentation__img{
+    height: 90%;
+}
+
+.presentation__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 40%;
+    padding-right: 100px;
+}
+
+.buttons__container{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -3,6 +3,8 @@ import "./Home.css"
 import Banner from "../components/banner/Banner";
 import Header from "../components/header/Header";
 import MiniGalery from "../components/minigalery/minigalery";
+import Button from "../components/button/button";
+import Presentation from "../components/presentation/presentation";
 
 const Home = () => {
     return(
@@ -10,6 +12,7 @@ const Home = () => {
             <Header/>
             <Banner/>
             <MiniGalery/>
+            <Presentation/>
             <div className="resto"></div>
         </section>
     )
