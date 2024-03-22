@@ -1,7 +1,7 @@
 .presentation__event{
     display: flex;
     justify-content: space-evenly;
-    background: url(./presentationIMG/bg.jpg)  center/cover no-repeat;
+    background: url(./presentationIMG/lamboBG.jpg)  center/cover no-repeat;
     height: 70vh;
     font-family: "Staatliches", sans-serif;
 }
