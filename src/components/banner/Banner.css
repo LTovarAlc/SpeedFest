@@ -26,21 +26,21 @@
 
 .speedFest__logo{
   position: absolute;
-  top: 3%;
-  left: 35%;
+  top: 20%;
+  left: 40%;
   z-index: 1;
-  height: 500px;
-  width: 500px;
+  height: 350px;
+  width: 350px;
 }
 
 .slogan{
   font-family: "Staatliches", sans-serif;
   position: absolute;
   color: hsl(0, 0%, 75%);
-  top: 63%;
+  top: 75%;
   left: 0%;
   z-index: 1;
-  font-size: 65px;
+  font-size: 55px;
   width: 100%;
   text-align: center;
   padding-bottom: 20px;
@@ -59,36 +59,36 @@
 
 .presentation{
   position: absolute;
-  top: 20%;
-  left: 10%;
+  top: 30%;
+  left: 15%;
   z-index: 1;
-  font-size: 120px;
+  font-size: 90px;
   font-family: "Staatliches", sans-serif;
   color: hsl(50, 70%, 50%);
 }
 
 .pirelli{
-  height: 180px;
+  height: 120px;
   position: absolute;
-  top: 15%;
-  left: 55%;
+  top: 28%;
+  left: 56%;
   z-index: 1;
 }
 
 .perrosdeplata{
   position: absolute;
-  top: 5%;
+  top: 15%;
   left: 55%;
   z-index: 1;
-  height: 500px;
+  height: 350px;
 }
 
 .perrosdeplata__text{
   font-family: "Staatliches", sans-serif;
   position: absolute;
-  font-size: 120px;
-  top: 30%;
-  left: 15%;
+  font-size: 90px;
+  top: 35%;
+  left: 20%;
   z-index: 1;
   color: hsl(0, 0%, 75%);
 }

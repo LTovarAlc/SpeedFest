@@ -42,6 +42,9 @@ const Information = () => {
               para toda la familia totalmente gratis, Te esperamos!
             </p>
           </div>
+          <div className="information__content">
+            <Button text={"Quiero asistir"}/>
+          </div>
         </div>
       </div>
       {/* <div className="information__img-container">
