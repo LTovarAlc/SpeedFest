@@ -8,6 +8,7 @@ import Presentation from "../components/presentation/presentation";
 import Sponsors from "../components/sponsors/sponsors";
 import Information from "../components/information/information";
 import Footer from "../components/footer/footer";
+import InfoDev from "../components/footer/icons-socials/infoDEV/infoDEV";
 
 const Home = () => {
     return(
@@ -19,6 +20,7 @@ const Home = () => {
             <Sponsors/>
             <Information/>
             <Footer/>
+            <InfoDev/>
         </section>
     )
 }

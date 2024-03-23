@@ -1,0 +1,38 @@
+.social__icons{
+    height: 30px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.infoDev{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+.developer__info{
+    font-family: "Staatliches", sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.developer__info h4{
+    font-size: 25px;
+}
+
+.developer__info span{
+    color: hsl(50, 70%, 50%);
+}
+
+.social__icons-container{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
