@@ -7,6 +7,7 @@ import Button from "../components/button/button";
 import Presentation from "../components/presentation/presentation";
 import Sponsors from "../components/sponsors/sponsors";
 import Information from "../components/information/information";
+import Footer from "../components/footer/footer";
 
 const Home = () => {
     return(
@@ -17,7 +18,7 @@ const Home = () => {
             <Presentation/>
             <Sponsors/>
             <Information/>
-            <div className="resto"></div>
+            <Footer/>
         </section>
     )
 }
