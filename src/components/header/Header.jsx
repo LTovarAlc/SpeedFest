@@ -1,43 +1,50 @@
-import "./Header.css"
-import React, {useState, useEffect} from "react"
+import "./Header.css";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
-    const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+  const location = useLocation();
 
-    useEffect (() => {
-        const handleScroll = () =>{
-            const scrollPosition = window.scrollY;
-            const windowHeigth = window.innerHeight;
-            const scrollThresHold = windowHeigth * 0.1; // 10% de la altura de la pagina
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+      const scrollThreshold = windowHeight * 0.1; // 10% de la altura de la pagina
 
-            if (scrollPosition >= scrollThresHold) {
-                setIsVisible(true);
-            }else{
-                setIsVisible(false);
-            }
-        }
+      if (scrollPosition >= scrollThreshold) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
 
-        window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-        return () =>{
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, [])
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
-    return(
-        <header className={`header ${isVisible ? "visible" : ""}`}>
-            <img src="../../../img/logoRace.png" alt="Logo" className="logoHeader" />
-            <nav className="menu">
-                <ul className="menu__list">
-                    <li className="menu__list-items">Inicio</li>
-                    <li className="menu__list-items">Eventos</li>
-                    <li className="menu__list-items">Revista</li>
-                    <li className="menu__list-items">Galeria</li>
-                    <li className="menu__list-items">Nosotros</li>
-                </ul>
-            </nav>
-        </header>
-    )
-}
+  // Restaurar el desplazamiento de la página al principio después de cambiar de ruta
+  useEffect(() => {
+    window.scrollTo(0, 0); // Llevar la página al principio
+  }, [location]);
 
-export default Header
+  return (
+    <header className={`header ${isVisible ? "visible" : ""}`}>
+      <img src="../../../img/logoRace.png" alt="Logo" className="logoHeader" />
+      <nav className="menu">
+        <ul className="menu__list">
+          <li className="menu__list-items"><Link to={"/"}>Inicio</Link></li>
+          <li className="menu__list-items"><Link to={"/error"}>Eventos</Link></li>
+          <li className="menu__list-items"><Link to={"/error"}>Revista</Link></li>
+          <li className="menu__list-items"><Link to={"/galery"}>Galeria</Link></li>
+          <li className="menu__list-items"><Link to={"/error"}>Nosotros</Link></li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;

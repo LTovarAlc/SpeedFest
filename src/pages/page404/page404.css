@@ -1,0 +1,53 @@
+.page404{
+    height: 100vh;
+    width: 100%;
+    color:  hsl(0, 0%, 75%);
+    font-family: "Staatliches", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.page404__titles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__404-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page404__titles h1{
+    font-size: 60px;
+    color: hsl(50, 70%, 50%);
+}
+
+.page404__titles h2{
+    font-size: 40px;
+}
+
+.image404__container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page404img{
+    width: 40%;
+    height: 100%;
+}
+
+.error__explanation{
+    width: 100%;
+    text-align: center;
+}

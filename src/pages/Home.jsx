@@ -13,14 +13,11 @@ import InfoDev from "../components/footer/icons-socials/infoDEV/infoDEV";
 const Home = () => {
     return(
         <section className="Home">
-            <Header/>
             <Banner/>
             <MiniGalery/>
             <Presentation/>
             <Sponsors/>
             <Information/>
-            <Footer/>
-            <InfoDev/>
         </section>
     )
 }
