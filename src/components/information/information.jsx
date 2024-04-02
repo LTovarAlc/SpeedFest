@@ -3,7 +3,7 @@ import Button from "../button/button";
 
 const Information = () => {
   return (
-    <section className="information">
+    <section className="information" id="information">
       <div className="information__container">
         <div className="information__titles">
           <h2>

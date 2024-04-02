@@ -30,8 +30,8 @@ const Presentation = () => {
         </p>
         <Timer/>
         <div className="buttons__container">
-            <Button text={"SABER MÁS"} color={"#000"} background={"#ffef39"}/>
-            <Button text={"ASISTIRÉ"} color={"#000"} background={"red"}/>
+            <a href="#information"><Button text={"SABER MÁS"}/></a>
+            <Button text={"ASISTIRÉ"}/>
         </div>
       </div>
     </section>
