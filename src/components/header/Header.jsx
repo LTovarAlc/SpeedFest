@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <header className={`header ${isVisible ? "visible" : ""}`}>
-      <img src="../../../img/logoRace.png" alt="Logo" className="logoHeader" />
+      <Link to={"/"}><img src="../../../img/logoRace.png" alt="Logo" className="logoHeader" /></Link>
       <nav className="menu">
         <ul className="menu__list">
           <li className="menu__list-items"><Link to={"/"}>Inicio</Link></li>
