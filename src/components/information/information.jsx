@@ -1,5 +1,6 @@
 import "./information.css";
 import Button from "../button/button";
+import { Link } from "react-router-dom";
 
 const Information = () => {
   return (
@@ -43,7 +44,7 @@ const Information = () => {
           </div>
         </div>
         <div className="InfoButton__container">
-          <Button text={"Quiero asistir"} />
+          <Link to={"/PageTicket"}><Button text={"Quiero asistir"} /></Link>
         </div>
       </div>
     </section>

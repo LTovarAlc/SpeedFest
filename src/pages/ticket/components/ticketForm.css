@@ -1,0 +1,57 @@
+.ticketForm{
+    height: 50%;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.custom-select {
+  width: 210px;
+  background-color: #121212;
+  border: 0px solid;
+  box-shadow: 1px 1px 1px 1px rgb(131, 133, 129),
+    -1px -1px 1px 1px rgb(100, 100, 100);
+  border-radius: 4px;
+  padding: 10px;
+  color: whitesmoke;
+  caret-color: white;
+  outline: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-select:focus {
+  background-color: #222;
+  border: 1.5px solid rgb(189, 189, 189);
+}
+
+.custom-select:hover {
+  box-shadow: 1px 1px 1px 1px rgb(149, 151, 147),
+    -1px -1px 1px 1px rgb(124, 124, 124);
+}
+
+.custom-select:hover::placeholder {
+  color: #999999;
+}
+
+.custom-select::placeholder {
+  color: #727272;
+}
+
+/* Oculta la flecha predeterminada del select */
+.custom-select::-ms-expand {
+  display: none;
+}
+
+/* Estilo para el triángulo que simula la flecha del select */
+.custom-select:after {
+  content: '\25BC'; /* Caracter Unicode del triángulo */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: white;
+  pointer-events: none;
+}

@@ -6,6 +6,7 @@ import Header from "./components/header/Header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/footer/footer";
 import InfoDev from "./components/footer/icons-socials/infoDEV/infoDEV";
+import PageTicket from "./pages/ticket/pageTicket";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/error" element={<Page404/>}/>
+        <Route path="/Error" element={<Page404/>}/>
+        <Route path="/PageTicket" element={<PageTicket/>}/>
       </Routes>
       <Footer/>
       <InfoDev/>

@@ -3,6 +3,7 @@ import "./presentation.css";
 import GreenPorche from "./presentationIMG/greenPorche.png";
 import Audi from "./presentationIMG/audi.png"
 import Timer from "./timer/timer";
+import { Link } from "react-router-dom";
 
 const Presentation = () => {
   return (
@@ -31,7 +32,7 @@ const Presentation = () => {
         <Timer/>
         <div className="buttons__container">
             <a href="#information"><Button text={"SABER MÁS"}/></a>
-            <Button text={"ASISTIRÉ"}/>
+            <Link to={"/PageTicket"}><Button text={"ASISTIRÉ"} /></Link>
         </div>
       </div>
     </section>
