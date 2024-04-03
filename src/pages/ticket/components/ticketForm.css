@@ -1,10 +1,10 @@
-.ticketForm{
-    height: 50%;
-    width: 100%;    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;    
+.ticketForm {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .custom-select {
@@ -47,11 +47,25 @@
 
 /* Estilo para el triángulo que simula la flecha del select */
 .custom-select:after {
-  content: '\25BC'; /* Caracter Unicode del triángulo */
+  content: "\25BC"; /* Caracter Unicode del triángulo */
   position: absolute;
   top: 50%;
   right: 10px;
   transform: translateY(-50%);
   color: white;
   pointer-events: none;
+}
+
+.form-field{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-message{
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
 }
