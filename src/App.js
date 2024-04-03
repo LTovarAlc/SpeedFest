@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/footer/footer";
 import InfoDev from "./components/footer/icons-socials/infoDEV/infoDEV";
 import PageTicket from "./pages/ticket/pageTicket";
+import ValidatePassPage from "./pages/validatePass/validatePass";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/Error" element={<Page404/>}/>
         <Route path="/PageTicket" element={<PageTicket/>}/>
+        <Route path="/ValidatePass" element={<ValidatePassPage/>}/>
       </Routes>
       <Footer/>
       <InfoDev/>
