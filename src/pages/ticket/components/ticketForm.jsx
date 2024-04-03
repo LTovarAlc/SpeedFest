@@ -3,7 +3,7 @@ import Input from "./inputs/input";
 import Button from "../../../components/button/button";
 import "./ticketForm.css";
 
-const TicketForm = () => {
+const TicketForm = ({onFormSubmit}) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -15,18 +15,17 @@ const TicketForm = () => {
     const { name, value } = event.target;
     setFormData({ ...formData, [name]: value });
   };
-  
 
   const handleSubmit = (event) => {
     event.preventDefault();
     if (formData.name.trim() && formData.email.trim() && formData.select) {
       console.log("Formulario enviado:", formData);
       setError("");
+      onFormSubmit();
     } else {
       setError("Todos los campos deben ser llenados");
     }
   };
-  
 
   return (
     <form className="ticketForm" onSubmit={handleSubmit}>
