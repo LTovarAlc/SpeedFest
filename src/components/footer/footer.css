@@ -77,3 +77,20 @@
 .menus__links:hover{
     color: #ebebeb;
 }
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 64px 0px;
+    }
+    .Pirelli__Logo-footer{
+        height: 80px;
+    }
+    .SpeedFest__Logo-footer{
+        height: 150px;
+    }
+    .footer__menus{
+        width: 100%;
+    }
+}

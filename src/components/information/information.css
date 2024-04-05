@@ -69,3 +69,27 @@
 .InfoButton__container{
     padding-left: 20px;
 }
+
+@media screen and (min-width: 820px) and (max-width:820px) {
+    .information{
+        height: 50vh;
+    }
+    .information__container{
+        width: 70%;
+    }    
+    .information__titles h2{
+        font-size: 30px;
+    }
+    .information__titles span{
+        font-size: 30px;
+    }
+    .info__description{
+        font-size: 20px;
+    }
+    .info__icon{
+        height: 30px;
+    }
+    .information__content p{
+        font-size: 16px;
+    }
+}

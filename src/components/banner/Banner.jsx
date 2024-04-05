@@ -13,7 +13,7 @@ const Banner = () => {
     slidesToShow: 1, // Cantidad de imágenes a mostrar a la vez
     slidesToScroll: 1, // Cantidad de imágenes a desplazar en cada cambio
     autoplay: true, // Reproducción automática
-    autoplaySpeed: 10000000, // Intervalo de cambio en milisegundos (10 segundos)
+    autoplaySpeed: 10000, // Intervalo de cambio en milisegundos (10 segundos)
     arrows: false,
   };
 

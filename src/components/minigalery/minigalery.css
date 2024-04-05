@@ -39,3 +39,9 @@
     text-align: center;
     transition: 0.3s ease;
 }
+
+@media screen and (min-width: 820px) and (max-width: 1180px){
+ .minigalery__slogan{
+    font-size: 30px;
+ }
+}

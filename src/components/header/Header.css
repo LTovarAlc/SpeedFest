@@ -46,3 +46,12 @@
 .menu__list-items:hover{
     color: #ebebeb;
 }
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .logoHeader{
+        height: 100px;
+    }
+    .menu__list-items{
+        font-size: 20px;
+    }
+}
