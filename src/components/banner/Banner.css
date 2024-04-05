@@ -93,6 +93,7 @@
   color: hsl(0, 0%, 75%);
 }
 
+/*Big tablet*/
 @media screen and (min-width: 820px) and (max-width: 1180px) {
   .banner{
     height: 38vh;
@@ -136,5 +137,41 @@
     font-size: 50px;
     left: 20%;
     top: 35%;
+  }
+}
+
+/*Small tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .banner{
+    height: 40vh;
+    width: 100%;
+  }
+  .presentation{
+    top: 30%;
+    left: 15%;
+    font-size: 50px;
+  }
+  .pirelli{
+    height: 70px;
+  }
+  .slogan{
+    font-size: 30px;
+  }
+  .slogan::after{
+    height: 8px;
+  }
+  .perrosdeplata__text{
+    font-size: 50px;
+    top: 30%;
+    left: 15%;
+  }
+  .perrosdeplata{
+    height: 200px;
+  }
+  .speedFest__logo{
+    height: 200px;
+    width: auto;
+    top: 20%;
+    left: 40%;
   }
 }

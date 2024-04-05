@@ -93,3 +93,28 @@
         font-size: 16px;
     }
 }
+
+/*Small tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .information{
+        height: 55vh;
+    }
+    .information__container{
+        width: 70%;
+    }    
+    .information__titles h2{
+        font-size: 30px;
+    }
+    .information__titles span{
+        font-size: 30px;
+    }
+    .info__description{
+        font-size: 18px;
+    }
+    .info__icon{
+        height: 30px;
+    }
+    .information__content p{
+        font-size: 16px;
+    }
+}

@@ -80,3 +80,30 @@
         width: 90%;
     }
 }
+
+/*Small tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .presentation__event{
+        height: 35vh;
+    }
+    .presentation__slogan{
+        font-size: 17px;
+        width: 100%;
+        width: 90%;
+    }
+    .presentation__title{
+        font-size: 25px;
+        width: 95%;
+    }
+    .presentation__year{
+        font-size: 25px;
+    }
+    .presentation__text{
+        padding: 0;
+        width: 50%;
+    }
+    .presentation__text p{
+        font-size: 15px;
+        width: 90%;
+    }
+}

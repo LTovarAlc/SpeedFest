@@ -55,3 +55,13 @@
         font-size: 20px;
     }
 }
+
+/*Small tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .logoHeader{
+        height: 100px;
+    }
+    .menu__list-items{
+        font-size: 20px;
+    }
+}

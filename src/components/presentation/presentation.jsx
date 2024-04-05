@@ -1,7 +1,7 @@
 import Button from "../button/button";
 import "./presentation.css";
 import GreenPorche from "./presentationIMG/greenPorche.png";
-import Audi from "./presentationIMG/audi.png"
+import Audi from "./presentationIMG/audi.png";
 import Timer from "./timer/timer";
 import { Link } from "react-router-dom";
 
@@ -22,17 +22,18 @@ const Presentation = () => {
           <span className="presentation__year">2024</span>
         </h1>
         <p>
-          SpeedFest es traído al continente americano por Pirelli en conjunto
-          con el equipo más veloz de todo el continente, "Los Perros de Plata",
-          para que conozcas lo que significa velocidad. Con nuestra gran
-          exhibición de coches deportivos y lujosos, además de nuestro equipo de
-          drifting que te dejará impresionado, todos son bienvenidos a conocer
-          nuestro festival que se llevará a cabo el 29 de noviembre.
+          SpeedFest, traido por Pirelli y "Los Perros de Plata", te muestra la
+          esencia de la velocidad con coches deportivos, lujo y drifting. ¡Te
+          esperamos el 29 de noviembre!
         </p>
-        <Timer/>
+        <Timer />
         <div className="buttons__container">
-            <a href="#information"><Button text={"SABER MÁS"}/></a>
-            <Link to={"/PageTicket"}><Button text={"ASISTIRÉ"} /></Link>
+          <a href="#information">
+            <Button text={"SABER MÁS"} />
+          </a>
+          <Link to={"/PageTicket"}>
+            <Button text={"ASISTIRÉ"} />
+          </Link>
         </div>
       </div>
     </section>

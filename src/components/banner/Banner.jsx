@@ -24,6 +24,7 @@ const Banner = () => {
           <img
             src="../../../img/logoRace.png"
             className="speedFest__logo animate__animated animate__fadeInUp animate__delay-2s"
+            alt="speedFestLogo"
           />
           <h1 className="slogan animate__animated animate__fadeInUp animate__delay-2s">
             El festival de carros deportivos mas inmenso del continente
@@ -36,7 +37,7 @@ const Banner = () => {
         </div>
         <div>
           <h1 className="presentation">Presentado por:</h1>
-          <img src="../../../img/LogoPirelli.png" className="pirelli" />
+          <img src="../../../img/LogoPirelli.png" className="pirelli" alt="Pirelli" />
           <h1 className="slogan animate__animated animate__fadeInUp animate__delay-2s">
             Con una gran exposición de autos deportivos y show de drifting
           </h1>
@@ -48,7 +49,7 @@ const Banner = () => {
         </div>
         <div>
             <h1 className="perrosdeplata__text">Perros de plata</h1>
-            <img src="../../../img/perrosDePlata.png" className="perrosdeplata" /> 
+            <img src="../../../img/perrosDePlata.png" className="perrosdeplata" alt="perros de plata" /> 
             <h1 className="slogan animate__animated animate__fadeInUp animate__delay-2s">
             En conjunto con el crew mas veloz de toda ámerica
             </h1>
