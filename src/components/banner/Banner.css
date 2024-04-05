@@ -92,3 +92,49 @@
   z-index: 1;
   color: hsl(0, 0%, 75%);
 }
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+  .banner{
+    height: 38vh;
+  }
+  .speedFest__logo{
+    height: 200px;
+    width: auto;
+    top: 20%;
+    left: 40%;
+  }
+  .slogan{
+    font-size: 30px;
+  }
+  .slogan::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%; /* Ajusta según tu preferencia */
+    width: 80%;
+    height: 5px;
+    background-color:  hsl(0, 0%, 75%);
+  }
+  .presentation{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    z-index: 1;
+    font-size: 50px;
+    font-family: "Staatliches", sans-serif;
+    color: hsl(50, 70%, 50%);
+  }
+  .pirelli{
+    height: 80px;
+    top: 32%;
+  }
+  .perrosdeplata{
+    height: 200px;
+    left: 60%;
+  }
+  .perrosdeplata__text{
+    font-size: 50px;
+    left: 20%;
+    top: 35%;
+  }
+}
