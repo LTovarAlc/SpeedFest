@@ -107,3 +107,43 @@
         width: 90%;
     }
 }
+
+/*big smartphone*/
+@media screen and (max-width: 430px){
+    .presentation__event{
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .presentation__slogan{
+        font-size: 17px;
+        width: 100%;
+    }
+    .presentation__title{
+        font-size: 25px;
+        width: 100%;
+    }
+    .presentation__year{
+        font-size: 25px;
+    }
+    .presentation__text{
+        padding: 0;
+        width: 96%;
+        text-align: center;
+    }
+    .presentation__text p{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .presentation__imgs-container{
+        display: none;
+    }
+    .buttons__container{
+        width: 100%;
+    }
+}

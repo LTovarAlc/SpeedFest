@@ -175,3 +175,42 @@
     left: 40%;
   }
 }
+
+/*big smartphone*/
+@media screen and (max-width: 430px) {
+  .banner{
+    height: 25vh;
+    width: 100%;
+  }
+  .presentation{
+    top: 30%;
+    left: 8%;
+    font-size: 30px;
+  }
+  .pirelli{
+    height: 45px;
+    left: 52%;
+  }
+  .slogan{
+    font-size: 17px;
+  }
+  .slogan::after{
+    height: 5px;
+  }
+  .perrosdeplata__text{
+    font-size: 30px;
+    top: 35%;
+    left: 15%;
+  }
+  .perrosdeplata{
+    left: 60%;
+    top: 25%;
+    height: 100px;
+  }
+  .speedFest__logo{
+    height:110px;
+    width: auto;
+    top: 15%;
+    left: 37%;
+  }
+}

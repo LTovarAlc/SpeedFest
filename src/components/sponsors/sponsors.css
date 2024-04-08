@@ -89,3 +89,27 @@
         height: 200px;
     }
 }
+
+/*big smartphone*/
+@media screen and (max-width: 430px){
+    .sponsors__brands-container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        gap: 20px;
+        justify-content: center;
+    }
+    .sponsors__brands-container > * {
+        width: 100%;
+    }
+    .logoPirelli{
+        height: 100px;
+    }
+    .perrosdeplata-sponsors{
+        height: 200px;
+    }
+    .sponsors h2{
+        font-size: 30px;
+    }
+}

@@ -118,3 +118,34 @@
         font-size: 16px;
     }
 }
+
+/*big mobile*/
+@media screen and (max-width: 430px) {
+    .information{
+        height: 45vh;
+    }
+    .information__container{
+        width: 100%;
+        padding: 0;
+    }
+    .information__titles span{
+        font-size: 26px;
+    }
+    .information__titles h2{
+        font-size: 26px;
+    }
+    .information__content-container{
+        display: none;
+    }
+    .InfoButton__container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .info__description{
+        width: 90%;
+        font-size: 18px;
+    }
+}

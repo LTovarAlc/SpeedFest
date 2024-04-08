@@ -47,6 +47,10 @@
     color: #ebebeb;
 }
 
+.navBar__mobile{
+    display: none;
+}
+
 @media screen and (min-width: 820px) and (max-width: 1180px) {
     .logoHeader{
         height: 100px;
@@ -63,5 +67,24 @@
     }
     .menu__list-items{
         font-size: 20px;
+    }
+}
+
+/*big smartphone*/
+@media screen and (max-width: 430px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logoHeader{
+        height: 100px;
+        margin-left: 50px;
+    }
+    .menu{
+        display: none;
+    }
+    .navBar__mobile{
+        display: flex;
+        margin-right: 70px;
     }
 }

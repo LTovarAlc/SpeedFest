@@ -112,3 +112,31 @@
         width: 100%;
     }
 }
+
+/*big mobile*/
+@media screen and (max-width: 430px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 64px 0px;
+        height: 70vh;
+    }
+    .Pirelli__Logo-footer{
+        height: 80px;
+    }
+    .SpeedFest__Logo-footer{
+        height: 120px;
+    }
+    .footer__menus{
+        width: 100%;
+    }
+    .footer__slongan{
+        font-size: 20px;
+    }
+    .footer__menus h3{
+        font-size: 25px
+    }
+    .menus__links{
+        font-size: 20px;
+    }
+}

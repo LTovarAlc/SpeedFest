@@ -68,3 +68,13 @@ button:hover::before {
     font-size: 18px;
   }
 }
+
+/*big smartphone*/
+@media screen and (max-width: 430px){
+  button{
+    padding: 8px 20px;
+  }
+  button span{
+    font-size: 18px;
+  }
+}

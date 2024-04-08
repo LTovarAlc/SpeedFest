@@ -30,17 +30,33 @@ const Header = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Llevar la página al principio
   }, [location]);
-
+  
   return (
     <header className={`header ${isVisible ? "visible" : ""}`}>
-      <Link to={"/"}><img src="../../../img/logoRace.png" alt="Logo" className="logoHeader" /></Link>
+      <Link to={"/"}>
+        <img
+          src="../../../img/logoRace.png"
+          alt="Logo"
+          className="logoHeader"
+        />
+      </Link>
       <nav className="menu">
         <ul className="menu__list">
-          <li className="menu__list-items"><Link to={"/"}>Inicio</Link></li>
-          <li className="menu__list-items"><Link to={"/error"}>Eventos</Link></li>
-          <li className="menu__list-items"><Link to={"/error"}>Revista</Link></li>
-          <li className="menu__list-items"><Link to={"/galery"}>Galeria</Link></li>
-          <li className="menu__list-items"><Link to={"/error"}>Nosotros</Link></li>
+          <li className="menu__list-items">
+            <Link to={"/"}>Inicio</Link>
+          </li>
+          <li className="menu__list-items">
+            <Link to={"/error"}>Eventos</Link>
+          </li>
+          <li className="menu__list-items">
+            <Link to={"/error"}>Revista</Link>
+          </li>
+          <li className="menu__list-items">
+            <Link to={"/galery"}>Galeria</Link>
+          </li>
+          <li className="menu__list-items">
+            <Link to={"/error"}>Nosotros</Link>
+          </li>
         </ul>
       </nav>
     </header>
