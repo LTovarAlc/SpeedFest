@@ -11,7 +11,7 @@ const HeaderMobile = () => {
   
     return (
       <header className="headerMobile">
-        <img src="../../../../img/logoRace.png" className="logo__headerMobile" />
+        <Link to={"/"}><img src="../../../../img/logoRace.png" className="logo__headerMobile" /></Link>
         <nav className="navBar__Mobile">
           <ul className={`menu__mobile ${isMenuOpen ? "show" : ""}`}>
             <li className="menuMobile__list-items">
