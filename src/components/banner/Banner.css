@@ -183,13 +183,14 @@
     width: 100%;
   }
   .presentation{
-    top: 30%;
-    left: 8%;
-    font-size: 30px;
+    top: 35%;
+    left: 10%;
+    font-size: 25px;
   }
   .pirelli{
-    height: 45px;
-    left: 52%;
+    height: 40px;
+    top: 30%;
+    left: 55%;
   }
   .slogan{
     font-size: 17px;
