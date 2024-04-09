@@ -51,3 +51,12 @@
     width: 100%;
     text-align: center;
 }
+
+/*big mobible*/
+
+@media screen and (max-width: 430px) {
+    .page404img{
+        height: 80%;
+        width: 90%;
+    }
+}
