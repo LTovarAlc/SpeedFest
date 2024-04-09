@@ -73,8 +73,7 @@
 /*big smartphone*/
 @media screen and (max-width: 430px){
     .header{
-        display: flex;
-        justify-content: space-between;
+        display: none;
     }
     .logoHeader{
         height: 100px;

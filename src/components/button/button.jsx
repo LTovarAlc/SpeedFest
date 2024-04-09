@@ -4,7 +4,7 @@ import "./button.css";
 
 const Button = ({ text }) => {
   return (
-    <button type="submit" className="btn-submit">
+    <button type="submit" className="btn-submit btn">
       <span>{text}</span>
     </button>
   );

@@ -1,4 +1,4 @@
-button {
+.btn {
   outline: none;
   cursor: pointer;
   border: none;
@@ -17,18 +17,18 @@ button {
   font-family: "Staatliches", sans-serif;
 }
 
-button span {
+.btn span {
   position: relative;
   z-index: 1;
   transition: color 0.4s;
 }
 
-button:hover span {
+.btn:hover span {
   color: black;
 }
 
-button::before,
-button::after {
+.btn::before,
+.btn::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -37,7 +37,7 @@ button::after {
   z-index: 0;
 }
 
-button::before {
+.btn::before {
   content: "";
   background: #000;
   width: 120%;
@@ -46,15 +46,15 @@ button::before {
   transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
 }
 
-button:hover::before {
+.btn:hover::before {
   transform: translate3d(100%, 0, 0);
 }
 
 @media screen and (min-width: 820px) and (max-width: 1180px) {
-    button{
+    .btn{
         padding: 8px 20px;
     }
-    button span{
+    .btn span{
         font-size: 18px;
     }
 }
